@@ -14,6 +14,6 @@ function send($phone){
 echo "COPYRIGHT ; SGBTEAM\n\n";
 echo "Nomor\nInput : ";
 $nomor = trim(fgets(STDIN));
-$execute = "void"($nomor);
+$execute = send ($nomor);
 print $execute;
 ?>
